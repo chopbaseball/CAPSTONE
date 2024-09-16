@@ -1,0 +1,44 @@
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" *ngFor="let day of days">
+        <ion-card class="day-card">
+          <ion-card-header>
+            <ion-card-title>{{ day }}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content class="card-content-styled">
+            <ion-list class="list-styled">
+              
+              <ng-container *ngFor="let slot of getSlotsForDay(day); let i = index">
+                <ion-item 
+                lines="none" 
+                class="schedule-item" 
+                [ngClass]="getColorClass(slot.Code)">
+                
+                <!-- Agregar un ícono usando getIconForSubject() para aplicar el TS -->
+                <ion-avatar slot="start">
+                  
+                  <img [src]="getIconForSubject(slot.Code)" alt="Icon for {{ slot.Code }}">
+                  
+                  
+                </ion-avatar>
+              
+                <ion-label>
+                  <ion-badge class="badge-highlight">{{ slot.Code }}</ion-badge>
+                  <p>{{ slot.Description }}</p>
+				  <strong>{{ slot.SessionStartTime }} - {{ slot.SessionEndTime }}</strong>
+                </ion-label>
+              </ion-item>
+              
+                <ion-item-divider 
+                  *ngIf="i < getSlotsForDay(day).length - 1 && slotSeparador(day, slot, getSlotsForDay(day)[i + 1])">
+                  <p>Separador</p>
+                </ion-item-divider>
+              </ng-container>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
