@@ -1,7 +1,0 @@
-{
-  "name": "EduBook_Mobile_Digital",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular"
-}
