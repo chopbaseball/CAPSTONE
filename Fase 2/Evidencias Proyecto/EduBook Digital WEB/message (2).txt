@@ -1,0 +1,87 @@
+import { Component, OnInit } from '@angular/core';
+import { ConexionesHttpService } from 'src/app/conexiones-http.service';
+
+interface Unit {
+  Codigo_unidad: string;
+  Descripcion_unidad: string;
+  Nombre_unidad: string;
+  contents: string[];
+}
+
+interface Subject {
+  name: string;
+  organization_id: number;
+  showDetails: boolean;
+  units: Unit[];
+}
+
+@Component({
+  selector: 'app-clases',
+  templateUrl: './clases.page.html',
+  styleUrls: ['./clases.page.scss'],
+})
+export class ClasesPage implements OnInit {
+  
+  subjects: Subject[] = [];
+  id_person = localStorage.getItem('id_person') || '';
+
+  constructor(private http: ConexionesHttpService) {}
+
+  ngOnInit() {
+    this.GetAsignaturas(this.id_person);
+  }
+
+  GetAsignaturas(person: string): void {
+    this.http.GetObtenerAsignaturasAlumno(person).subscribe((data: any[]) => {
+      data.forEach((asignatura) => {
+        const subject: Subject = {
+          name: asignatura.asignatura,
+          organization_id: asignatura.organization_id,
+          showDetails: false,
+          units: [] // Inicializa las unidades como un array vacío
+        };
+        this.subjects.push(subject);
+        this.GetUnidadesPorAsignatura(subject); // Llama a las unidades para cada asignatura
+      });
+    });
+  }
+
+  GetUnidadesPorAsignatura(subject: Subject): void {
+    this.http.GetObtenerUnidadesPorAsignatura(subject.organization_id.toString()).subscribe((data: any[]) => {
+      subject.units = data.map((unit) => ({
+        Codigo_unidad: unit.Codigo_unidad,
+        Descripcion_unidad: unit.Descripcion_unidad,
+        Nombre_unidad: unit.Nombre_unidad,
+        contents: [] // Aquí puedes manejar los contenidos adicionales si los tienes
+      }));
+    });
+  }
+
+    slideOpts = {
+    initialSlide: 0,
+    speed: 400,
+    slidesPerView: 1.2,
+    spaceBetween: 10
+  };
+
+  selectedUnit: string | null = null;
+
+  toggleUnit(unitTitle: string) {
+    if (this.selectedUnit === unitTitle) {
+      this.selectedUnit = null;
+    } else {
+      this.selectedUnit = unitTitle;
+    }
+  }
+
+  startLesson(unitTitle: string) {
+    console.log(`Iniciando la lección: ${unitTitle}`);
+  }
+
+  // Nueva función para manejar el acceso al contenido
+  accessFile(content: string) {
+    console.log(`Accediendo al contenido: ${content}`);
+    // Aquí puedes añadir la lógica para abrir o acceder al archivo relacionado con el contenido
+  }
+  
+}
