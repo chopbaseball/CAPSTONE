@@ -1,0 +1,2181 @@
+{
+  "id": "66f7a00d-0b1d-4a79-b707-ec33400693a1",
+  "version": "2.0",
+  "name": "EduBookDigital-Movil",
+  "url": "http://localhost:8100/login",
+  "tests": [{
+    "id": "4593346f-9dc9-4640-9a6a-2b1079b0a2bd",
+    "name": "Inicio_sesion_movil",
+    "commands": [{
+      "id": "4d95da9a-dfef-4a69-acc1-d20696fd2b41",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1165ffef-583f-452c-92e7-951cf7946cc4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34263b7b-197a-4c75-9193-b177e2a2408c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f2612aa-b5a9-4a8b-bb37-2bc25f15f281",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f184707-3849-42dc-9d9d-deb0e06b01ec",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "29ae2185-e124-4695-93df-60b02d3b4443",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f5de508-85f0-4fc8-b8d1-2ef93986d97e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "20039b01-01b9-4f5c-950b-4f142baf689f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c2a34062-f82d-4cc7-b5ed-abaad8681c07",
+    "name": "Horario_movil",
+    "commands": [{
+      "id": "78b37594-6aee-4727-9e4a-9aba7ce435b0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bd1ba28-98f2-4e0c-aa11-0d4307985e25",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "892x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fe15382-b030-4c64-baae-6a0078b976a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logo-img",
+      "targets": [
+        ["css=.logo-img", "css:finder"],
+        ["xpath=//img[@alt='Ionic logo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a0158d0-7907-4000-960d-e3c799439098",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8197ebdf-6f6c-41fc-be7e-52bb0e99a702",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1ad0f2b-9b2c-4cfa-9b95-dbfe92741ac7",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "63983354-c8fa-4759-93a5-dcd23206bbf3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62df1422-4911-41ae-bbe6-2b72fe33fe49",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "22544934-125c-4316-a3dd-e569a2df0ad2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d301afd-ef20-4e62-8cdb-14c3ca1ec5f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .content-row",
+      "targets": [
+        ["css=.ion-activated > .content-row", "css:finder"],
+        ["xpath=//ion-col[3]/ion-card/ion-card-content", "xpath:position"],
+        ["xpath=//ion-card-content[contains(.,'Horarios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9ca2c6c4-eea4-49f6-8372-22007363aedf",
+    "name": "Asistencia_movil",
+    "commands": [{
+      "id": "15025f59-12b4-449b-897f-1397b9e201e0",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4323d3e7-09fd-4640-aae4-19d91920b37e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "892x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ed3edb4-5106-4c53-bcdf-8a5c2111f198",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87ca9592-6f5a-4c84-af2a-cc812efe49b4",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3b6ccdc-fa97-4979-9b4a-79634b236638",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "3610c431-b29b-4dbf-b4de-5eaea9728621",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400940ff-f8ee-4df0-a993-cb614266df7d",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "01ae4679-3ad2-47ee-824e-e51dbeef6a5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed4eb58f-990a-4e03-8499-1935390cd9e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .content-row",
+      "targets": [
+        ["css=.ion-activated > .content-row", "css:finder"],
+        ["xpath=//ion-col[4]/ion-card/ion-card-content", "xpath:position"],
+        ["xpath=//ion-card-content[contains(.,'Asistencia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50b6ec45-1a00-462d-8e57-57a09daed3cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(1) > .subject-card .header-content",
+      "targets": [
+        ["css=.md:nth-child(1) > .subject-card .header-content", "css:finder"],
+        ["xpath=//ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "018eef43-bb2a-459f-8416-050f6075b091",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(1) > .subject-card .header-content",
+      "targets": [
+        ["css=.md:nth-child(1) > .subject-card .header-content", "css:finder"],
+        ["xpath=//ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7a2f89b-f2be-41cc-88aa-feb3902af482",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(2) > .subject-card .header-content",
+      "targets": [
+        ["css=.md:nth-child(2) > .subject-card .header-content", "css:finder"],
+        ["xpath=//ion-col[2]/ion-card/ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2792ee7-d2ed-4e82-acbe-086de83c0569",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(2) > .subject-card .header-content",
+      "targets": [
+        ["css=.md:nth-child(2) > .subject-card .header-content", "css:finder"],
+        ["xpath=//ion-col[2]/ion-card/ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51a9e69b-3ea5-45ad-b70e-36cfa090c4a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(3) .header-content",
+      "targets": [
+        ["css=.md:nth-child(3) .header-content", "css:finder"],
+        ["xpath=//ion-col[3]/ion-card/ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9544b976-638e-44a1-b4ca-6a2df2cac2cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(3) .header-content",
+      "targets": [
+        ["css=.md:nth-child(3) .header-content", "css:finder"],
+        ["xpath=//ion-col[3]/ion-card/ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8f2d969-429a-49e0-ae79-d6712f0329c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(4) > .subject-card > .ion-inherit-color",
+      "targets": [
+        ["css=.md:nth-child(4) > .subject-card > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-col[4]/ion-card/ion-card-header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ecea50a-3f52-4465-81b0-77b5bdd32b8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(4) > .subject-card > .ion-inherit-color",
+      "targets": [
+        ["css=.md:nth-child(4) > .subject-card > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-col[4]/ion-card/ion-card-header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91d07b07-e997-4362-aa15-35e4854bcea8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(7) .header-content",
+      "targets": [
+        ["css=.md:nth-child(7) .header-content", "css:finder"],
+        ["xpath=//ion-col[7]/ion-card/ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3d827a2-f6b5-4eaa-b175-d83a90e2b265",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(7) .header-content",
+      "targets": [
+        ["css=.md:nth-child(7) .header-content", "css:finder"],
+        ["xpath=//ion-col[7]/ion-card/ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "881b8882-1591-4fce-904f-33e6faf1c8c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(6) .header-content",
+      "targets": [
+        ["css=.md:nth-child(6) .header-content", "css:finder"],
+        ["xpath=//ion-col[6]/ion-card/ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4575a918-a0bb-489e-a901-8dcc1b6a62fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(6) .header-content",
+      "targets": [
+        ["css=.md:nth-child(6) .header-content", "css:finder"],
+        ["xpath=//ion-col[6]/ion-card/ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fb126565-4093-4d8a-917c-a5943a983849",
+    "name": "Notas_movil",
+    "commands": [{
+      "id": "d9f8dbca-36cf-4334-88d0-56e28d8876a8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fdf6842-e02c-4a30-b060-ffe585f7cc9a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "895x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dd65b58-3da5-42e8-b2eb-c254500ea016",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3502aefc-4cc3-44a9-bc5f-3e498db39199",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2c1ff0a-97d8-43c7-9bb8-e21a0a5ce550",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "2771d866-9b12-4d30-bd52-06eb3fd59ee7",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23473036-6009-4779-8278-bf3e028eaeea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-content",
+      "targets": [
+        ["css=.card-content", "css:finder"],
+        ["xpath=//ion-card-content", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c484ad91-3334-41dd-96e3-1bc120378576",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "bef12ccc-8d20-45ab-8ae1-1f1ef838b3b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "071973a5-c0c5-4243-a97b-8aa014fce71d",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "b2d30a47-d922-4f65-891d-cb10c19195dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bfe8298-2f09-441c-bcc8-f87297ae61af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .content-row",
+      "targets": [
+        ["css=.ion-activated > .content-row", "css:finder"],
+        ["xpath=//ion-card/ion-card-content", "xpath:position"],
+        ["xpath=//ion-card-content[contains(.,'Notas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2cab89a-f0df-444e-86d1-dde4256178e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.biol .header-content",
+      "targets": [
+        ["css=.biol .header-content", "css:finder"],
+        ["xpath=//ion-card-header/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Ciencias naturales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14302fd3-2b01-41ae-a1f3-2ce6a281c3a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.biol .header-content",
+      "targets": [
+        ["css=.biol .header-content", "css:finder"],
+        ["xpath=//ion-card-header/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Ciencias naturales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "773b0687-ed00-45e6-af04-a16f253b553b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(2) > .subject-card > .ion-inherit-color",
+      "targets": [
+        ["css=.md:nth-child(2) > .subject-card > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-col[2]/ion-card/ion-card-header", "xpath:position"],
+        ["xpath=//ion-card-header[contains(.,'Educación física y salud')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c340f2bd-579c-4a2b-a4c1-7ed8abeff8db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(2) > .subject-card > .ion-inherit-color",
+      "targets": [
+        ["css=.md:nth-child(2) > .subject-card > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-col[2]/ion-card/ion-card-header", "xpath:position"],
+        ["xpath=//ion-card-header[contains(.,'Educación física y salud')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60823317-3451-4be4-b90e-7a8ad5988ca6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(3) .subject-name",
+      "targets": [
+        ["css=.md:nth-child(3) .subject-name", "css:finder"],
+        ["xpath=//ion-col[3]/ion-card/ion-card-header/div/ion-card-title", "xpath:position"],
+        ["xpath=//ion-card-title[contains(.,'Historia, geografía y ciencias sociales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "11fb9439-305e-4ae5-ad6c-0e5e4aeba4f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(3) .subject-name",
+      "targets": [
+        ["css=.md:nth-child(3) .subject-name", "css:finder"],
+        ["xpath=//ion-col[3]/ion-card/ion-card-header/div/ion-card-title", "xpath:position"],
+        ["xpath=//ion-card-title[contains(.,'Historia, geografía y ciencias sociales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cdeb05f-4f35-48c7-ad11-651eede43e10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leng .subject-name",
+      "targets": [
+        ["css=.leng .subject-name", "css:finder"],
+        ["xpath=//ion-col[4]/ion-card/ion-card-header/div/ion-card-title", "xpath:position"],
+        ["xpath=//ion-card-title[contains(.,'Lenguaje y comunicación / Lengua y literatura')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5103286-4794-4b4b-af24-50c6b1689734",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leng .subject-name",
+      "targets": [
+        ["css=.leng .subject-name", "css:finder"],
+        ["xpath=//ion-col[4]/ion-card/ion-card-header/div/ion-card-title", "xpath:position"],
+        ["xpath=//ion-card-title[contains(.,'Lenguaje y comunicación / Lengua y literatura')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "717761b3-b6b8-4294-b6c3-089d18b70035",
+    "name": "Clases_movil",
+    "commands": [{
+      "id": "e3e5d53e-e3d5-428d-a1e6-c517a0fa488b",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd212536-f33a-4382-8140-264ba2d4c1c0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c05cc30-3b6f-4ce0-95fb-a82e04707029",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f98afe9f-e413-4679-a40b-eb00856586b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8068aa6-c93c-4389-af94-da1872bb2f52",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "406c43a3-1900-4f80-b67c-464d26438152",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "abd67e08-a005-4a46-ac26-7ffd5125f12f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "dd49968a-8c88-4ced-887b-f5d8c3a4f7ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8dc9079-c76c-4164-9b8a-6053c689c4cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .content-row",
+      "targets": [
+        ["css=.ion-activated > .content-row", "css:finder"],
+        ["xpath=//ion-col[2]/ion-card/ion-card-content", "xpath:position"],
+        ["xpath=//ion-card-content[contains(.,'Clases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc9fa0ab-863c-4ced-b87a-a3785c52b370",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(1) > .ion-inherit-color > .subject-name",
+      "targets": [
+        ["css=.md:nth-child(1) > .ion-inherit-color > .subject-name", "css:finder"],
+        ["xpath=//ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63e7b668-ae1d-4ff0-b449-2c225c6d8592",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(1) > .ion-inherit-color > .subject-name",
+      "targets": [
+        ["css=.md:nth-child(1) > .ion-inherit-color > .subject-name", "css:finder"],
+        ["xpath=//ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7825999-a15b-4320-9d44-2311bfda0a87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(2) > .ion-inherit-color > .subject-name",
+      "targets": [
+        ["css=.md:nth-child(2) > .ion-inherit-color > .subject-name", "css:finder"],
+        ["xpath=//ion-card[2]/ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3c6265d-6e0e-4369-a38d-d912d26c3855",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(2) > .ion-inherit-color > .subject-name",
+      "targets": [
+        ["css=.md:nth-child(2) > .ion-inherit-color > .subject-name", "css:finder"],
+        ["xpath=//ion-card[2]/ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0660e7b1-7809-4679-b260-fc390224cb87",
+    "name": "Unidades_movil",
+    "commands": [{
+      "id": "826c4374-4c11-4b1c-8f01-20c635ef6ba6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0aeb23ed-08bf-409a-961c-bcc35c00201d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13a8ce88-446d-42fc-8ae7-024fa37dc280",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0b401b0-a624-4789-b789-43252ad7b3b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75421861-4a54-468f-bc06-799c58955640",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "620aa5a4-c5bd-40f4-ba40-ea78e0c09e36",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32c2a09c-048f-4dda-b927-43d514cdc29d",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "bfd56787-fccc-42eb-87f0-abd314cab532",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b047e778-97ff-439f-8475-da66b118f158",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .content-row",
+      "targets": [
+        ["css=.ion-activated > .content-row", "css:finder"],
+        ["xpath=//ion-col[2]/ion-card/ion-card-content", "xpath:position"],
+        ["xpath=//ion-card-content[contains(.,'Clases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20e18502-2a32-40dc-9352-19b7356e88d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-md > .md:nth-child(1) > .ion-inherit-color",
+      "targets": [
+        ["css=.list-md > .md:nth-child(1) > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-card-header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31279398-6cc2-4f5e-8e94-d2e3e0f74979",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=ion-slide:nth-child(1) .ion-inherit-color > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(1) .ion-inherit-color > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide/ion-card/ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77a7f857-8253-4c3e-8879-0b1cf866433b",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=ion-slide:nth-child(1) > .md > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(1) > .md > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide/ion-card/ion-card-header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcf609fa-4231-4c8d-89bf-257e3ed9962e",
+      "comment": "",
+      "command": "click",
+      "target": "css=ion-slide:nth-child(1) > .md > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(1) > .md > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide/ion-card/ion-card-header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7311862-dfc6-40b6-b4b0-cc132d362333",
+      "comment": "",
+      "command": "click",
+      "target": "css=ion-slide:nth-child(1) .ion-inherit-color > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(1) .ion-inherit-color > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide/ion-card/ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35470b85-dd41-474c-96a7-699f3711e406",
+      "comment": "",
+      "command": "click",
+      "target": "css=ion-slide:nth-child(2) .ion-inherit-color > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(2) .ion-inherit-color > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide[2]/ion-card/ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba8063a7-2635-43d0-8914-f8743898dd7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=ion-slide:nth-child(2) .ion-inherit-color > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(2) .ion-inherit-color > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide[2]/ion-card/ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bebaf030-6e1e-4648-b6ab-8909665aa3ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(2) > .ion-inherit-color > .subject-name",
+      "targets": [
+        ["css=.md:nth-child(2) > .ion-inherit-color > .subject-name", "css:finder"],
+        ["xpath=//ion-card[2]/ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dcc7a6c-c5d4-4eb8-a100-6ab257b0d2c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=ion-slide:nth-child(1) > .md > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(1) > .md > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide/ion-card/ion-card-header", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acf27e32-ba81-4693-98ad-146e9a47e70d",
+      "comment": "",
+      "command": "click",
+      "target": "css=ion-slide:nth-child(1) > .md > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(1) > .md > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide/ion-card/ion-card-header", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "56f10ab5-6747-45e4-bce9-e001aad46cbf",
+    "name": "Actividades_movil",
+    "commands": [{
+      "id": "8deed205-84ed-4c0e-8c48-c9380655c92a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0de95643-36be-43d0-bc0e-93e8e1d93bd2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce54ce94-ca98-40eb-b77c-0cee021dfe88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a206bccc-73a4-4cc6-a5f7-2a8cfcb28a01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-item:nth-child(1) .native-wrapper",
+      "targets": [
+        ["css=.input-item:nth-child(1) .native-wrapper", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed041c0-1af4-42dc-8491-012919279930",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "bd657fc6-f557-43d4-a251-1f18e1210430",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbebdeea-5956-4d75-a9d4-60a69b8e1a5b",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "5c112644-140e-4a35-af0b-11390e393b5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9313c4ef-996a-47fd-9e74-0c8971d3bded",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .content-row",
+      "targets": [
+        ["css=.ion-activated > .content-row", "css:finder"],
+        ["xpath=//ion-col[2]/ion-card/ion-card-content", "xpath:position"],
+        ["xpath=//ion-card-content[contains(.,'Clases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d8184a6-e98d-4b5c-9a6d-0d00586f92bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(1) > .ion-inherit-color > .subject-name",
+      "targets": [
+        ["css=.md:nth-child(1) > .ion-inherit-color > .subject-name", "css:finder"],
+        ["xpath=//ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a88abdcd-d177-42ff-b6da-289c7862fedc",
+      "comment": "",
+      "command": "click",
+      "target": "css=ion-slide:nth-child(1) .ion-inherit-color > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(1) .ion-inherit-color > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide/ion-card/ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f536402-a258-4e44-8bf5-850f264fd9a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-color",
+      "targets": [
+        ["css=.ion-color", "css:finder"],
+        ["xpath=//ion-card-content/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f654f07-2f80-44ed-8ef6-5ebc367a08b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated",
+      "targets": [
+        ["css=.ion-activated", "css:finder"],
+        ["xpath=//app-actividades-unidades/ion-header/ion-toolbar/ion-buttons/ion-back-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ed59b23-4e55-404a-8134-1528b7e12660",
+      "comment": "",
+      "command": "click",
+      "target": "css=ion-slide:nth-child(2) .ion-inherit-color > .ion-inherit-color",
+      "targets": [
+        ["css=ion-slide:nth-child(2) .ion-inherit-color > .ion-inherit-color", "css:finder"],
+        ["xpath=//ion-slide[2]/ion-card/ion-card-header/ion-card-title", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afe0c556-4177-47d1-a24d-160cdab19af5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-color",
+      "targets": [
+        ["css=.ion-color", "css:finder"],
+        ["xpath=//ion-card-content/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dc287568-1908-4845-bd37-0304ee5dd442",
+    "name": "Hoja_vida_movil",
+    "commands": [{
+      "id": "8a88df8a-ce82-4b38-871b-0e8cafd912b6",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cde16e1-8b53-4807-8f21-d5f14cd347c2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfbb4485-b8da-43ff-ac27-b2390ea798c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12bd31d9-0a5c-457a-935a-846cb46f14ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6edc4dc-b148-4103-b516-1cf71f7cce65",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "3d604472-7e3c-4585-a308-5f18db53b14a",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbbcd288-6dd6-4a27-ade9-74f55df20437",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "efea1402-26e5-43af-9e5b-998c87e262de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form",
+      "targets": [
+        ["css=.login-form", "css:finder"],
+        ["xpath=//ion-card-content/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "892d7afa-8beb-4d12-8cfd-d55602840495",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5b40a9b-2605-4413-ac55-3e05545c633a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated .card-title",
+      "targets": [
+        ["css=.ion-activated .card-title", "css:finder"],
+        ["xpath=//ion-col[5]/ion-card/ion-card-content/ion-card-title", "xpath:position"],
+        ["xpath=//ion-card-title[contains(.,'Hoja de vida')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fa3b32b7-0809-478d-b485-5fbd48543207",
+    "name": "Certificados_movil",
+    "commands": [{
+      "id": "aef4e2ba-01ac-4345-9610-c3ad1422736f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fb8ea1e-5c2c-42bd-9e80-5d648f1446a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c325a7db-a860-4c05-808c-92b4a36312d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "902d2e05-0b47-4a9b-b4c0-9dd431b31068",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-item:nth-child(1) .native-wrapper",
+      "targets": [
+        ["css=.input-item:nth-child(1) .native-wrapper", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92071767-eecf-4979-8c35-c22ecee1252a",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "f751246b-ef14-4749-939a-b6ac4789926b",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3089def7-c6ad-4046-9cf3-cc05e88e7cec",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "34f02c57-3e8e-410a-9d37-3c99e0667df6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51f508b3-363e-483b-a534-86ed7e4c81ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated .card-title",
+      "targets": [
+        ["css=.ion-activated .card-title", "css:finder"],
+        ["xpath=//ion-col[6]/ion-card/ion-card-content/ion-card-title", "xpath:position"],
+        ["xpath=//ion-card-title[contains(.,'Certificados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1afb666-0a2c-4c91-b7d9-4a4c64a4891b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated",
+      "targets": [
+        ["css=.ion-activated", "css:finder"],
+        ["xpath=//ion-card-content/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86a2fb89-2c4d-47e9-b350-f5136f1d65e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated",
+      "targets": [
+        ["css=.ion-activated", "css:finder"],
+        ["xpath=//ion-card[2]/ion-card-content/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9c94f4c9-c261-42e2-9515-b122203fdb73",
+    "name": "Calendario_actividades_movil",
+    "commands": [{
+      "id": "987bfd82-6683-4847-a0ae-90cdb679cbc7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dceee230-ef13-40c0-bfbf-8e47654c7f54",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab7e102b-a88a-4e05-b65c-d963944a6a55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2602180f-3ecc-44a4-aa11-7f097ceb888d",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd22ba09-9a09-4fd6-866d-5ddde2a6191d",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "05482e15-0023-4c17-96aa-6f20e31c0ae8",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebaceef5-44c6-4fc3-9dd3-ec1b1e2a828f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "d8ab4e7d-e84e-4cc9-b01e-3e1ba2260b16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ba238f2-c6fb-4525-ae73-e69f68de8594",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .content-row",
+      "targets": [
+        ["css=.ion-activated > .content-row", "css:finder"],
+        ["xpath=//ion-col[7]/ion-card/ion-card-content", "xpath:position"],
+        ["xpath=//ion-card-content[contains(.,'Calendario Actividades')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a6e949-bc58-495a-bd13-936bf3c498a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.today",
+      "targets": [
+        ["css=.today", "css:finder"],
+        ["xpath=//ion-row[4]/ion-col[5]", "xpath:position"],
+        ["xpath=//ion-col[contains(.,'12')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff790c78-ed5d-4874-9695-8b1194dbaa48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-button:nth-child(1) > .md",
+      "targets": [
+        ["css=.icon-button:nth-child(1) > .md", "css:finder"],
+        ["xpath=//ion-icon[@name='chevron-back-outline']", "xpath:attributes"],
+        ["xpath=//ion-col/ion-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec6595ad-6aae-4bf2-a676-5cd65353ba4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.event-day:nth-child(3)",
+      "targets": [
+        ["css=.event-day:nth-child(3)", "css:finder"],
+        ["xpath=//ion-row[5]/ion-col[3]", "xpath:position"],
+        ["xpath=//ion-col[contains(.,'12')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1144fd90-1494-48a2-b1cf-bd5e6ce35d51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-md",
+      "targets": [
+        ["css=.list-md", "css:finder"],
+        ["xpath=//ion-list", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "720bad45-f4cc-4efb-b871-040a7e3069c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.event-info:nth-child(4)",
+      "targets": [
+        ["css=.event-info:nth-child(4)", "css:finder"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Asignatura: Matemática')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e3458cde-cf01-47c5-8ed4-2e5994b34ccd",
+    "name": "Foro_movil",
+    "commands": [{
+      "id": "eba8c65b-4bfb-4f1c-b8c5-9d94c78f14fd",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2407578f-db2d-4875-8e6a-581e2fe763c3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d22c549d-fb84-4833-84eb-a49e20f8f090",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc99e5d3-4b22-4b72-9ce8-b813e12817e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f95ccc7-f19a-49ac-8108-fef2311a4be4",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "3ab25e2e-b738-4b1e-83a7-81375485c88f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "574b5fb2-a6e0-4df6-90d4-e45f2acdd1a0",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "a29b5f45-9f9f-47ea-a012-c993a3d64e3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a7c514c-6c98-4340-ba43-31295c207467",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .content-row",
+      "targets": [
+        ["css=.ion-activated > .content-row", "css:finder"],
+        ["xpath=//ion-col[8]/ion-card/ion-card-content", "xpath:position"],
+        ["xpath=//ion-card-content[contains(.,'Foros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce6d1cf5-62d5-49d5-ad36-bc0051b48139",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md:nth-child(1) > .subject-card .header-content",
+      "targets": [
+        ["css=.md:nth-child(1) > .subject-card .header-content", "css:finder"],
+        ["xpath=//ion-card-header/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59d05500-cb84-4eb3-afa9-e2066b88b6d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-item .metadata",
+      "targets": [
+        ["css=.header-item .metadata", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Por: Joaquín Ceballos - 24/11/24, 1:21')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1d73960-b363-4244-b366-b32b2d8dc2b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-2",
+      "targets": [
+        ["id=ion-input-2", "id"],
+        ["name=ion-input-2", "name"],
+        ["css=#ion-input-2", "css:finder"],
+        ["xpath=//input[@id='ion-input-2']", "xpath:attributes"],
+        ["xpath=//ion-accordion/div/ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40d32b16-b03b-47eb-98cb-6aaba80231b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-2",
+      "targets": [
+        ["id=ion-input-2", "id"],
+        ["name=ion-input-2", "name"],
+        ["css=#ion-input-2", "css:finder"],
+        ["xpath=//input[@id='ion-input-2']", "xpath:attributes"],
+        ["xpath=//ion-accordion/div/ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "aaa"
+    }, {
+      "id": "14ea4df0-1442-49cb-a0ab-338dc731676d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.upload-button2",
+      "targets": [
+        ["css=.upload-button2", "css:finder"],
+        ["xpath=//ion-item[2]/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34bda73a-00ef-4f3f-99f6-0737aa72f4d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.upload-button",
+      "targets": [
+        ["css=.upload-button", "css:finder"],
+        ["xpath=//ion-content/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96c100d5-7de3-4a2b-b0b3-0d727aca9387",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-4",
+      "targets": [
+        ["id=ion-input-4", "id"],
+        ["name=ion-input-4", "name"],
+        ["css=#ion-input-4", "css:finder"],
+        ["xpath=//input[@id='ion-input-4']", "xpath:attributes"],
+        ["xpath=//ion-modal[@id='ion-overlay-1']/div/ion-content/div/ion-item/ion-input/label/div[2]/input", "xpath:idRelative"],
+        ["xpath=//ion-content/div/ion-item/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae380a1d-ba27-44fb-8b7f-83600314ad1f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-4",
+      "targets": [
+        ["id=ion-input-4", "id"],
+        ["name=ion-input-4", "name"],
+        ["css=#ion-input-4", "css:finder"],
+        ["xpath=//input[@id='ion-input-4']", "xpath:attributes"],
+        ["xpath=//ion-modal[@id='ion-overlay-1']/div/ion-content/div/ion-item/ion-input/label/div[2]/input", "xpath:idRelative"],
+        ["xpath=//ion-content/div/ion-item/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "aaaa"
+    }, {
+      "id": "712ce10d-5331-4cdf-a349-eaa0f4147778",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated",
+      "targets": [
+        ["css=.ion-activated", "css:finder"],
+        ["xpath=//ion-modal[@id='ion-overlay-1']/div/ion-content/div/ion-button", "xpath:idRelative"],
+        ["xpath=//ion-content/div/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b9fbe51e-f73f-4598-8f11-c70cfb5d0f92",
+    "name": "Perfil_movil",
+    "commands": [{
+      "id": "542e0605-4b42-4a17-bc00-a6dbf9b788af",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ee22647-44c8-4376-8b7e-df008c435a4e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9c244dd-e175-4356-8746-7be37eaa60c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8aa4adf0-5c4e-48fc-895a-0d9098497eb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc7a15e9-4e78-47c4-b16c-5b52c1252405",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "f89dafc8-ae71-446e-92fb-302e03ebbeca",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2e1b243-8875-4b3a-a8ac-1f50e89481c7",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "1f7f8b26-19bd-4ea2-a5be-a5f431b30153",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbdbbc46-a3ce-46ed-8ea3-90975342e25c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tab-button-perfil > .icon-tab",
+      "targets": [
+        ["css=#tab-button-perfil > .icon-tab", "css:finder"],
+        ["xpath=(//ion-icon[@name='person'])[2]", "xpath:attributes"],
+        ["xpath=//ion-tab-button[@id='tab-button-perfil']/ion-icon", "xpath:idRelative"],
+        ["xpath=//ion-tab-button/ion-icon", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df00e562-b2ec-4e6b-b4c2-c78bb5804e27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.in-buttons",
+      "targets": [
+        ["css=.in-buttons", "css:finder"],
+        ["xpath=//ion-buttons/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feb1175a-17c7-4203-80f8-d4954a4aae77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm-button > .alert-button-inner",
+      "targets": [
+        ["css=.confirm-button > .alert-button-inner", "css:finder"],
+        ["xpath=//ion-alert[@id='ion-overlay-1']/div[2]/div[3]/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "adc27596-3370-4794-9796-db7e8bc09f8b",
+    "name": "Calificanos_movil",
+    "commands": [{
+      "id": "fe608efd-26dd-4062-abec-44fecf0200e4",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a0ee0fb1-32ff-47d6-b75e-4b07263a9762",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "892x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02fef9b3-8b65-4ab8-81a4-62f1fb5222ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27a621cf-25df-4cc7-a7f1-f311763a889c",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f390df51-f21d-4156-befd-b4057c72c347",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "34c865d7-ee77-4f25-9af1-488ac1e29b91",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cd8cc59-70bb-43c5-9e12-13bf5b54fb2c",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "5e485c38-a595-4db0-910b-15013074b963",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa500ab9-efba-4fba-a0bd-6e9658b5c02c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated",
+      "targets": [
+        ["css=.ion-activated", "css:finder"],
+        ["xpath=//ion-tab-button[2]", "xpath:position"],
+        ["xpath=//ion-tab-button[contains(.,'Calificanos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9907a51a-39bb-40c4-a6e0-f6f4e507eefb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated",
+      "targets": [
+        ["css=.ion-activated", "css:finder"],
+        ["xpath=//ion-modal[@id='ion-overlay-1']/app-calificaciones-modal/ion-content/div/ion-button", "xpath:idRelative"],
+        ["xpath=//ion-content/div/ion-button", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win355",
+      "windowTimeout": 2000
+    }, {
+      "id": "c52b631d-bf34-4938-8944-46f4b039bd2a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win355}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f1c06956-6e60-42d6-b03d-bd391de3ef22",
+    "name": "Notificaciones_movil",
+    "commands": [{
+      "id": "8d9df06a-8b5f-4f82-a99c-59165416de5c",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "431a29c4-4976-4c64-8e6f-f85016b4b53d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "892x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b346ec6b-c111-4994-91c8-6fced67de7c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "274cafa7-78a7-44e2-aa1b-03b30f826d2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-item:nth-child(1)",
+      "targets": [
+        ["css=.input-item:nth-child(1)", "css:finder"],
+        ["xpath=//ion-item", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dea8cdff-8263-4d26-8f9c-517534730619",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9063847-7180-401c-b870-bc1fff490d60",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Luciano Fagioli"
+    }, {
+      "id": "0a52ca3d-f690-402a-9508-faeb0c10abf1",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b204704-24d3-4a08-9de7-89983ad3e742",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "20676059-1FagBla"
+    }, {
+      "id": "e693b8e9-c457-49f4-8a55-2b044fcb999f",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3fa395b-3f7b-46a1-867a-39f5c1fbc32f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d9cf40d-c4f4-4e42-9fbb-1f6752585393",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated > .icon-tab",
+      "targets": [
+        ["css=.ion-activated > .icon-tab", "css:finder"],
+        ["xpath=//ion-icon[@name='notifications']", "xpath:attributes"],
+        ["xpath=//ion-tab-button[3]/ion-icon", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6f2a4605-4a14-4ff0-a67d-dc1ddc3e6d8e",
+    "name": "Seleccion_pupilo_movil",
+    "commands": [{
+      "id": "5d62c918-956d-41a7-94f5-04b8f595f41a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8100/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f86d8edb-76ca-4162-903d-db96ed085909",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "890x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea9ab730-a895-4269-a83a-065f1dfa64aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login",
+      "targets": [
+        ["css=.btn_login", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d38360d-ddbf-4a0c-9d17-bf298377fc8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-item:nth-child(1) .native-wrapper",
+      "targets": [
+        ["css=.input-item:nth-child(1) .native-wrapper", "css:finder"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8de8efb9-c905-4a69-972b-d2f48889c721",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-0",
+      "targets": [
+        ["id=ion-input-0", "id"],
+        ["css=#ion-input-0", "css:finder"],
+        ["xpath=//input[@id='ion-input-0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ana"
+    }, {
+      "id": "d8e16d1f-4490-401a-8801-e4951845322f",
+      "comment": "",
+      "command": "click",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47c99a02-d2f7-44b2-af05-ef41d185b0ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=ion-input-1",
+      "targets": [
+        ["id=ion-input-1", "id"],
+        ["css=#ion-input-1", "css:finder"],
+        ["xpath=//input[@id='ion-input-1']", "xpath:attributes"],
+        ["xpath=//ion-item[2]/ion-input/label/div[2]/input", "xpath:position"]
+      ],
+      "value": "aaa3"
+    }, {
+      "id": "9e47d0c2-6bf6-4a30-a9a8-f7ebf9e86df4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn_login_submit",
+      "targets": [
+        ["css=.btn_login_submit", "css:finder"],
+        ["xpath=//ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "966cd52e-9283-4109-8836-b8a278f43fb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated",
+      "targets": [
+        ["css=.ion-activated", "css:finder"],
+        ["xpath=//div[3]/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7969159-3241-4f4e-9ef7-df7f128e9e8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated .card-title",
+      "targets": [
+        ["css=.ion-activated .card-title", "css:finder"],
+        ["xpath=//ion-col[8]/ion-card/ion-card-content/ion-card-title", "xpath:position"],
+        ["xpath=//ion-card-title[contains(.,'Seleccionar Hijo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e60929e9-6738-47e6-8bdb-5fd70765fdae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ion-activated",
+      "targets": [
+        ["css=.ion-activated", "css:finder"],
+        ["xpath=//div[3]/ion-button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0f2f9a35-3aee-41af-8b9d-101247bd1537",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4593346f-9dc9-4640-9a6a-2b1079b0a2bd"]
+  }],
+  "urls": [],
+  "plugins": []
+}
